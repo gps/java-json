@@ -1,0 +1,6 @@
+The org.json package for parsing json in Java found at http://www.json.org/java/ was written with a much older version of Java. As a result when included in an Eclipse project, it produces several warnings, which often mask real warnings. 
+
+To solve this problem, I added @SuppressWarning annotations where appropriate. The code is otherwise unchanged. 
+
+I also reformatted the package with my Eclipse default formatting.
+
